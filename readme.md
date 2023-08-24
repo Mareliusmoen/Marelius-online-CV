@@ -5,6 +5,11 @@ This is the online CV for Marelius Moen and this project is made to increase my 
 These are the initial plans and the design sketches for this site:
 <img src="assets/images/1st-sketch.jpg" width="300">
 
+And then some more refined design and structure:
+
+<img src="assets/images/index-html.jpg" width="300">
+<img src="assets/images/aboutme-html.jpg" width="300">
+<img src="assets/images/contact-html.jpg" width="300">
 ##Features 
 -----
 
