@@ -1,0 +1,35 @@
+body {
+    background-color: #d4fafa;
+    font-family: 'Special Elite', cursive;
+
+}
+/* Setting background color and box shadow for main content */
+.main-content {
+    margin: 100px;
+    position: relative;
+    box-shadow:
+        0px 0px 17px 0px #131615
+}
+
+/* Make nav-bar higher and the list horizontal */
+nav {
+    background-color: #3d426b;
+    height: 100px;
+}
+#menu {
+    display:table;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+#menu li {
+    display: table-cell;
+
+}
+#menu a {
+    color: white;
+    font-size: 110%;
+}
