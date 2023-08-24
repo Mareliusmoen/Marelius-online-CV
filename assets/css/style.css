@@ -3,6 +3,7 @@ body {
     font-family: 'Special Elite', cursive;
 
 }
+
 /* Setting background color and box shadow for main content */
 .main-content {
     margin: 100px;
@@ -14,22 +15,49 @@ body {
 /* Make nav-bar higher and the list horizontal */
 nav {
     background-color: #3d426b;
-    height: 100px;
+    height: 50px;
 }
+
 #menu {
-    display:table;
+    display: table;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    line-height: 50px;
     
-}
-#menu li {
-    display: table-cell;
 
 }
+
+#menu li {
+    display: table-cell;
+    
+
+}
+
 #menu a {
     color: white;
     font-size: 110%;
+}
+/* Main content */
+
+/* Footer styling */
+#footer {
+    background-color: #3d426b;
+    color: white;
+    width: 100%;
+    height: 50px;
+    
+}
+#social-media {
+    display: table;
+    width: 100%;
+    line-height: 50px;
+}
+#social-media li {
+    display: table-cell;
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+/* SoMe icon size */
+.some-icon {
+    font-size: x-large;
 }
