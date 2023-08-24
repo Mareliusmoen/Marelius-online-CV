@@ -7,9 +7,16 @@ These are the initial plans and the design sketches for this site:
 
 And then some more refined design and structure:
 
+-----
+index.html sketch
 <img src="assets/images/index-html.jpg" width="300">
+-----
+about-me.html sketch
 <img src="assets/images/aboutme-html.jpg" width="300">
+-----
+contact.html
 <img src="assets/images/contact-html.jpg" width="300">
+<br>
 ##Features 
 -----
 
