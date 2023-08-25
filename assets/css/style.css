@@ -22,7 +22,10 @@ a:visited {
     text-decoration: none;
     color: white;
 }
-
+/* Unerline on active tab in navbar */
+.active {
+    border-bottom: 1px solid white;
+}
 /* Adding round corners */
 nav {
     border-radius: 25px 25px 0 0;
