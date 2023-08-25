@@ -27,6 +27,12 @@ body {
     word-spacing: 0.7rem;
 
 }
+#contact-text {
+    text-align: center;
+   padding-top: 19%;
+   font-size: 35px;
+   word-spacing: 3rem;
+}
 /* make all links stay their font color even when visitet, and remove underscore */
 a:link,
 a:visited {
