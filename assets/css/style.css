@@ -1,17 +1,26 @@
 body {
-    background-color: #d4fafa;
+    background-image: linear-gradient(to bottom right, #82a1d1, black);
     font-family: 'Special Elite', cursive;
 
 }
 
 /* Setting background color and box shadow for main content */
 .main-content {
-    background-color: #afd5f0;
+    background-color: black;
+    background-image: repeating-linear-gradient(233deg, #4931af, #4931af 1px, transparent -19px, transparent 2px);
+    background-size: 10px;
     margin: 35px;
     position: relative;
     box-shadow:
         0px 0px 35px 0px #131615;
-border-radius: 25px;
+    border-radius: 25px;
+}
+
+/* make all links stay their font color even when visitet, and remove underscore */
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 /* Adding round corners */
@@ -25,22 +34,28 @@ nav {
 
 /* Make nav-bar higher and the list horizontal */
 nav {
-    background-color: #3d426b;
+    background-color: black;
+    background-image: repeating-linear-gradient(233deg, #1c2751, #1c2751 1px, transparent -19px, transparent 2px);
+    background-size: 10px;
     height: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #menu {
-    display: table;
-    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    overflow: hidden;
     line-height: 50px;
-
 
 }
 
 #menu li {
-    display: table-cell;
-
-
+    padding: 2px;
+    width: 200px;
+    display: inline-block;
 }
 
 #menu a {
@@ -56,22 +71,24 @@ nav {
 
 /* Footer styling */
 #footer {
-    background-color: #3d426b;
+    background-color: black;
+    background-image: repeating-linear-gradient(233deg, #1c2751, #1c2751 1px, transparent -19px, transparent 2px);
+    background-size: 10px;
     color: white;
     width: 100%;
 }
 
 #social-media {
     display: table;
-    width: 100%;
+    width: 30%;
     height: 50px;
     line-height: 50px;
 }
 
 #social-media li {
     display: table-cell;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 2px;
+    padding-right: 2px;
 
 }
 
