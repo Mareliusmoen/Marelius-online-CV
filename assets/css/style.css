@@ -17,6 +17,23 @@ body {
 }
 
 /* MAIN CONTENT STYLING */
+/* home page styling */ 
+#myself {
+    max-width: 25%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding-bottom: 40px;
+    box-shadow:
+        0px 0px 35px 0px #131615;
+}
+img {
+    color: white;
+    
+}
 #intro-text {
     text-align: center;
     padding-top: 30%;
@@ -30,13 +47,13 @@ body {
 
 }
 
-/* set the div in the center horizontally and vertically + size */
+/* set the contact div in the center horizontally and vertically + size */
 #contact-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35px;
+    font-size: 45px;
     word-spacing: 3rem;
 }
 
