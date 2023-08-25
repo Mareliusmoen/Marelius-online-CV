@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to bottom right, #82a1d1, black);
-    font-family: 'Special Elite', cursive;
+    font-family: 'Electrolize';
 
 }
 
@@ -65,7 +65,10 @@ nav {
     color: white;
     font-size: 110%;
 }
-
+/* Make all header and footer text capitalized */
+#menu, #footer {
+    text-transform: uppercase;
+}
 /* Main content */
 #content {
     height: 450px;
