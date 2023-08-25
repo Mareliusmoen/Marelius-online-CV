@@ -15,34 +15,43 @@ body {
         0px 0px 35px 0px #131615;
     border-radius: 25px;
 }
+
 /* MAIN CONTENT STYLING */
 #intro-text {
-   text-align: center;
-   padding-top: 30%;
-   
+    text-align: center;
+    padding-top: 30%;
+
 }
-#intro-text > p {
+
+#intro-text>p {
     color: white;
     font-size: larger;
     word-spacing: 0.7rem;
 
 }
+
+/* set the div in the center horizontally and vertically + size */
 #contact-text {
-    text-align: center;
-   padding-top: 19%;
-   font-size: 35px;
-   word-spacing: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    word-spacing: 3rem;
 }
+
 /* make all links stay their font color even when visitet, and remove underscore */
 a:link,
 a:visited {
     text-decoration: none;
     color: white;
 }
+
 /* Unerline on active tab in navbar */
 .active {
     border-bottom: 1px solid white;
 }
+
 /* Adding round corners */
 nav {
     border-radius: 25px 25px 0 0;
@@ -82,10 +91,13 @@ nav {
     color: white;
     font-size: 90%;
 }
+
 /* Make all header and footer text capitalized */
-#menu, #footer {
+#menu,
+#footer {
     text-transform: uppercase;
 }
+
 /* Main content */
 #content {
     height: 450px;
@@ -120,6 +132,7 @@ nav {
 .some-icon {
     font-size: x-large;
 }
+
 #cv {
     font-size: small;
 }
