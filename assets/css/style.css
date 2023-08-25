@@ -15,7 +15,18 @@ body {
         0px 0px 35px 0px #131615;
     border-radius: 25px;
 }
+/* MAIN CONTENT STYLING */
+#intro-text {
+   text-align: center;
+   padding-top: 30%;
+   
+}
+#intro-text > p {
+    color: white;
+    font-size: larger;
+    word-spacing: 0.7rem;
 
+}
 /* make all links stay their font color even when visitet, and remove underscore */
 a:link,
 a:visited {
