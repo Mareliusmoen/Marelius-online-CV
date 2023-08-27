@@ -1,3 +1,6 @@
+/* Import of font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Special+Elite&display=swap');
+
 body {
     background-image: linear-gradient(to bottom right, #82a1d1, black);
     font-family: 'Electrolize';
@@ -23,13 +26,6 @@ a:visited {
         0px 0px 35px 0px #131615;
 }
 
-/* flex order for all content */
-
-
-
-#about-me {
-    order: 3;
-}
 
 /* MAIN CONTENT STYLING */
 /* Nav bar */
@@ -40,10 +36,6 @@ a:visited {
 }
 
 /* Make nav-bar higher and the list horizontal */
-#header {
-    order: 1;
-}
-
 nav li:hover {
     transform: scale(1.1);
     transition: 0.3s;
@@ -78,41 +70,34 @@ nav {
 
 #menu a {
     color: white;
-    font-size: 90%;
 }
 
 /* home styling */
 #home {
-    flex: 1;
-    order: 2;
+    position: relative;
+    margin-top: 79px;
+}
+
+#welcome-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #myself {
-
-    max-width: 25%;
-    height: auto;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 25%;
     border-radius: 50%;
     ;
     box-shadow:
         0px 0px 0px 35px #13161535;
 }
 
-img {
-    color: white;
-}
-
 #intro-text {
     text-align: center;
-    padding-top: 40%;
 }
 
 #intro-text>p {
     color: white;
-    font-size: larger;
     word-spacing: 0.7rem;
 }
 
@@ -125,7 +110,6 @@ img {
 /* About me styling */
 #about-header {
     color: white;
-    font-size: large;
     width: 100%;
     height: 20px;
     display: flex;
@@ -135,7 +119,6 @@ img {
 #about-me>p {
     color: white;
     text-align: center;
-    justify-content: center;
     background-color: #00000075;
     border-radius: 25px;
     padding: 30px;
@@ -145,17 +128,14 @@ img {
 
 /* Education page styling */
 #education {
-    flex: 1;
-    order: 3;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
-
 #edu-header {
     color: white;
-    font-size: large;
-    width: 100%;
-    height: 20px;
-    display: flex;
-    justify-content: center;
+    margin-top: 35px;
 }
 
 .education-list {
@@ -164,7 +144,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 20px;
     position: relative;
 
 }
@@ -206,17 +186,14 @@ img {
 
 /* Experience page styling */
 #experience {
-    flex: 1;
-    order: 5;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
-
 #work-header {
     color: white;
-    font-size: large;
-    width: 100%;
-    height: 20px;
-    display: flex;
-    justify-content: center;
+    margin-top: 35px;
 }
 
 .experience-list {
@@ -225,9 +202,8 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 20px;
     position: relative;
-
 }
 
 .exp {
@@ -241,28 +217,28 @@ img {
 /* Work experience text background */
 #exp-top-left {
     background-color: #00000075;
-    border-radius: 25px 0px 0px 0px;
+    border-radius: 25px;
 
 }
 
 #exp-top-right {
     background-color: #00000075;
-    border-radius: 0px 25px 0px 0px;
+    border-radius: 25px;
 }
 
 #exp-mid-left {
     background-color: #00000075;
-    border-radius: 0px 0px 0px 25px;
+    border-radius: 25px;
 }
 
 #exp-mid-right {
     background-color: #00000075;
-    border-radius: 0px 0px 25px 0px;
+    border-radius: 25px;
 }
 
 #exp-bottom {
     background-color: #00000075;
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 25px;
 }
 
 /* set the contact div in the center horizontally and vertically + size */
@@ -273,11 +249,21 @@ img {
     font-size: large;
     width: 100%;
     height: 20px;
-    display: absolute;
+    display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 30%;
+    flex-direction: column;
+    margin-bottom: 130px;
     padding-top: 7%;
+}
+
+/* Make contact icons in a row */
+#contact-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
 }
 
 #contact-text a {

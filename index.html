@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags to help search engines -->
     <meta name="description"
         content="Personal resume for Marelius Moen, former Sommelier and Restauranteur and now Software Development student">
-    <!-- Import of font from google fonts -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Special+Elite&display=swap');
-    </style>
     <title>Marelius Moen</title>
-    <!-- FontAwesome Kit-->
-    <script src="https://kit.fontawesome.com/bd589d914e.js" crossorigin="anonymous"></script>
     <!--stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -22,9 +17,9 @@
         <!-- Header content-->
         <header id="header">
             <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
-        </label>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <nav>
                 <ul id="menu">
                     <li><a href="#home" class="active">Home</a></li>
@@ -37,44 +32,67 @@
         </header>
         <!-- Main content of the page -->
         <main>
-            <div id="home" style="
-    position: relative;
-    margin-top: 79px;
-">
-                <div style="display: flex;flex-direction: column;align-items: center;">
-                    <img src="assets/images/marelius.jpg" alt="A handsome Norwegian man in a cool pinot noir cap and denim jacket" id="myself" style="
+            <div id="home">
+                <div id="welcome-message">
+                    <img src="assets/images/marelius.jpg"
+                        alt="A handsome Norwegian man in a cool pinot noir cap and denim jacket" id="myself" style="
     width: 25%;
 ">
-     <div id="intro-text">
+                    <div id="intro-text">
                         <p>
                             Hello. I'm Marelius Moen.
                         </p>
                     </div>
-    <audio controls="" src="assets/audio/marelius moen.m4a"></audio>
+                    <audio controls="" src="assets/audio/marelius moen.m4a"></audio>
                 </div>
-                
+
             </div>
             <div id="about-me">
                 <h1 id="about-header">About me</h1>
                 <p style="
 ">
-                    My name is Marelius Moen (if you wonder how to pronounce it check out the audio-file below), I’m a 32 your old guy from a city in northern Norway called Tromsø. It’s cold, usually snowing 9 months and that is the reason why i started to play basketball, an indoor sport; when i was 11 years old.
-I played until I was 18 and by that time I became a rookie at Tromsø Storm the 2nd best team in the top league in Norway. 
-This experience thought me about hard work and persistence, if you work hard enough you will reach your goal in the end, thats a lesson I have remembered and implemented in my career and it has taken me all over the world.
-​
-Now after more than a decade working in high-end restaurants and hotels I felt the need to change pace and direction and took the leap and changed carreer path. I started a Diploma in Software Development at Code Institute, and the rest is history. I love the problem solving aspect of the job and to create something that is both logical and creative.
-​
-Would you like to see more of what I’m up to on my own time check out my instagram link below.
+                    My name is Marelius Moen (if you wonder how to pronounce it check out the audio-file below), I’m a
+                    32 your old guy from a city in northern Norway called Tromsø. It’s cold, usually snowing 9 months
+                    and that is the reason why i started to play basketball, an indoor sport; when i was 11 years old.
+                    I played until I was 18 and by that time I became a rookie at Tromsø Storm the 2nd best team in the
+                    top league in Norway.
+                    This experience thought me about hard work and persistence, if you work hard enough you will reach
+                    your goal in the end, thats a lesson I have remembered and implemented in my career and it has taken
+                    me all over the world.
+                    ​
+                    Now after more than a decade working in high-end restaurants and hotels I felt the need to change
+                    pace and direction and took the leap and changed carreer path. I started a Diploma in Software
+                    Development at Code Institute, and the rest is history. I love the problem solving aspect of the job
+                    and to create something that is both logical and creative.
+                    ​
+                    Would you like to see more of what I’m up to on my own time check out my instagram link below.
                 </p>
-                
+
             </div>
+            <!-- Education section -->
             <div id="education">
-                <!-- EDUCATION SECTION -->
+                <h1 id="edu-header">Certifications</h1>
+                <div class="education-list">
+                    <div class="edu" id="edu-top-left">
+                        Culinary school, 2007- 2009 @ Breivika School,
+                        Norway
+                    </div>
+                    <div class="edu" id="edu-top-right">
+                        WSET 3 Sommelier in wine and spirits, 2015 @ Culinary Academy Oslo, Norway
+                    </div>
+                    <div class="edu" id="edu-mid-left">
+                        Tea Sommelier, 2016-2018 @ International Tea Masters Association </div>
+                    <div class="edu" id="edu-mid-right">
+                        Sake Sommelier WSET 3, 2016 @ TAFE Sydney, Australia
+                    </div>
+                    <div class="edu" id="edu-bottom">
+                        Diploma in Software Development, 2023 @ Code Institute
+                    </div>
+                </div>
+
             </div>
             <div id="experience">
-                <div id="work-header" style="
-    text-align: center;
-">
+                <div id="work-header">
                     <h1 id="work-h1">Work Experience</h1>
                 </div>
                 <!-- List of workplaces -->
@@ -106,8 +124,10 @@ Would you like to see more of what I’m up to on my own time check out my insta
             <div id="contact">
                 <div id="contact-text">
                     <h1>Get in touch</h1>
-                    <a href="mailto:mareliusmoen@gmail.com"><i class="fa-regular fa-paper-plane"></i></a>
-                    <a href="tel:+46793514182"><i class="fa-solid fa-mobile-retro"></i></a>
+                    <div id="contact-row">
+                        <a href="mailto:mareliusmoen@gmail.com"><i class="fa-regular fa-paper-plane"></i></a>
+                        <a href="tel:+46793514182"><i class="fa-solid fa-mobile-retro"></i></a>
+                    </div>
                 </div>
             </div>
         </main>
@@ -115,14 +135,19 @@ Would you like to see more of what I’m up to on my own time check out my insta
         <div id="footer">
             <div>
                 <ul id="social-media">
-                    <li class="some-icon"><a href="https://github.com/Mareliusmoen" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                    <li class="some-icon"><a href="https://www.instagram.com/mareliusmoen/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li class="some-icon"><a href="https://sv-se.facebook.com/marelius/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="some-icon"><a href="https://github.com/Mareliusmoen" target="_blank"><i
+                                class="fa-brands fa-github"></i></a></li>
+                    <li class="some-icon"><a href="https://www.instagram.com/mareliusmoen/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li class="some-icon"><a href="https://sv-se.facebook.com/marelius/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a></li>
                     <li><a href="downloadable/Cv Marelius Kristiansen Moen .pdf" id="cv">Download CV</a></li>
                 </ul>
             </div>
         </div>
     </div>
+    <!-- FontAwesome kit -->
+    <script src="https://kit.fontawesome.com/bd589d914e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
