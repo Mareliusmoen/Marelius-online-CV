@@ -96,7 +96,7 @@ nav {
     max-width: 25%;
     height: auto;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
@@ -220,6 +220,9 @@ img {
     padding-bottom: 30%;
     padding-top: 7%;
 }
+#contact-text a {
+    font-size: xx-large;
+}
 /* Footer styling */
 #footer {
     background-color: black;
@@ -232,10 +235,6 @@ img {
     height: 65px;
     overflow: hidden;
     z-index: 999;
-}
-
-#footer {
-    border-radius: 0 0 25px 25px;
 }
 
 #social-media {
