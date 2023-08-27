@@ -48,6 +48,10 @@ a:visited {
 #header {
     order: 1;
 }
+nav li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
 nav {
     background-color: black;
@@ -80,13 +84,6 @@ nav {
     color: white;
     font-size: 90%;
 }
-
-/* Underline on active tab in navbar */
-.active {
-    border-bottom: 1px solid white;
-}
-
-
 
 /* home styling */
 #home {
@@ -262,4 +259,21 @@ img {
 
 #cv {
     font-size: small;
+}
+
+/* Media Query: large or landscape phones 576px and up */
+@media screen and (max-width: 768px) {
+
+    /* Nav toggle */
+    #nav-toggle:checked~nav {
+        display: block;
+    }
+    
+    #nav-toggle {
+        display: none;
+    }
+    
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
 }
