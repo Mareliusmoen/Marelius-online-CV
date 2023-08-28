@@ -142,6 +142,7 @@ nav {
 .edu {
     flex-basis: 33%;
     padding: 15px;
+    margin: 15px;
     box-shadow:
         35px 0px 35px 0px #131615;
     border: 1px solid #563c5c;
@@ -200,6 +201,7 @@ nav {
 .exp {
     flex-basis: 33%;
     padding: 15px;
+    margin: 15px;
     box-shadow:
         35px 0px 35px 0px #131615;
     border: 1px solid #563c5c;
