@@ -289,6 +289,7 @@ form input {
 
 form label {
     color: white;
+    margin-top: 20px;
 }
 #subject {
     height: 170px;
@@ -296,8 +297,20 @@ form label {
 #submit-button {
     width: 100px;
     height: 35px;
-    margin: auto;
+    margin: 20px auto;
 }
+/* Change placeholder-text color */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffffe0; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ffffffe0;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ffffffe0;
+  }
 /* Footer styling */
 #footer {
     background-color: black;
