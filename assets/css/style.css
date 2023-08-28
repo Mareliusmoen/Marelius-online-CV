@@ -25,7 +25,6 @@ a:visited {
         0px 0px 35px 0px #131615;
 }
 
-
 /* MAIN CONTENT STYLING */
 /* Nav bar */
 /* Make all header and footer text capitalized */
@@ -41,30 +40,24 @@ nav li:hover {
 }
 
 nav {
+    width: 100%;
+    height: 65px;
     background-color: black;
     background-image: repeating-linear-gradient(233deg, #1c2751, #1c2751 1px, transparent -19px, transparent 2px);
     background-size: 10px;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     position: fixed;
     top: 0px;
-    height: 65px;
     overflow: hidden;
     z-index: 999;
 }
 
 #menu {
-    list-style-type: none;
     text-align: center;
-    padding: 0px;
-    overflow: hidden;
-    line-height: 40px;
+    line-height: 65px;
 
-}
-
-#menu li {
-    padding: 2px;
-    width: 200px;
-    display: inline-block;
 }
 
 #menu a {
@@ -123,15 +116,17 @@ nav {
     padding: 30px;
     box-shadow:
         35px 0px 35px 0px #131615;
+        border: 1px solid #563c5c;
 }
 
 /* Education page styling */
 #education {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
+
 #edu-header {
     color: white;
     margin-top: 35px;
@@ -153,43 +148,44 @@ nav {
     padding: 15px;
     box-shadow:
         35px 0px 35px 0px #131615;
-
+    border: 1px solid #563c5c;
 }
 
 /* Education experience text background */
 #edu-top-left {
     background-color: #00000075;
-    border-radius: 25px 0px 0px 0px;
+    border-radius: 25px;
 
 }
 
 #edu-top-right {
     background-color: #00000075;
-    border-radius: 0px 25px 0px 0px;
+    border-radius: 25px;
 }
 
 #edu-mid-left {
     background-color: #00000075;
-    border-radius: 0px 0px 0px 25px;
+    border-radius: 25px;
 }
 
 #edu-mid-right {
     background-color: #00000075;
-    border-radius: 0px 0px 25px 0px;
+    border-radius: 25px;
 }
 
 #edu-bottom {
     background-color: #00000075;
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 25px;
 }
 
 /* Experience page styling */
 #experience {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
+
 #work-header {
     color: white;
     margin-top: 35px;
@@ -210,7 +206,7 @@ nav {
     padding: 15px;
     box-shadow:
         35px 0px 35px 0px #131615;
-
+        border: 1px solid #563c5c;
 }
 
 /* Work experience text background */
@@ -307,4 +303,4 @@ nav {
 }
 
 /* Media Query: large or landscape phones 576px and up */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {}
