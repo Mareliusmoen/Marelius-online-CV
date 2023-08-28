@@ -55,6 +55,7 @@ nav {
 }
 
 #menu {
+    overflow: hidden;
     text-align: center;
     line-height: 65px;
 
@@ -95,7 +96,6 @@ nav {
 
 /* Main content */
 #content {
-    /* remember to change height on all html pages */
     width: 100%;
 }
 
