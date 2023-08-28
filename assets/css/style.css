@@ -49,7 +49,7 @@ nav {
     position: fixed;
     top: 0px;
     overflow: hidden;
-    z-index: 999;
+    z-index: 1;
 }
 
 #menu {
@@ -281,6 +281,7 @@ form {
         35px 0px 35px 0px #131615;
     border: 1px solid #563c5c;
 }
+
 form input {
     background-color: #563c5c75;
     border: 1px solid #563c5c;
@@ -293,26 +294,34 @@ form label {
     color: white;
     margin-top: 20px;
 }
+
 #subject {
     height: 170px;
 }
+
 #submit-button {
     width: 100px;
     height: 35px;
     margin: 20px auto;
 }
+
 /* Change placeholder-text color */
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #ffffffe0; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #ffffffe0;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
     color: #ffffffe0;
-  }
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ffffffe0;
+}
+
 /* Footer styling */
 #footer {
     background-color: black;
