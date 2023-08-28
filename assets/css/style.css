@@ -41,14 +41,11 @@ nav li:hover {
 
 /* Navigation bar styling */
 nav {
-    width: 100%;
+    width: 79%;
     height: 65px;
     background-color: black;
     background-image: repeating-linear-gradient(233deg, #1c2751, #1c2751 1px, transparent -19px, transparent 2px);
     background-size: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     position: fixed;
     top: 0px;
     overflow: hidden;
@@ -56,6 +53,9 @@ nav {
 }
 
 #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     overflow: hidden;
     text-align: center;
     line-height: 65px;
