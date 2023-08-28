@@ -346,9 +346,5 @@ form label {
     font-size: x-large;
 }
 
-#cv {
-    font-size: small;
-}
-
 /* Media Query: large or landscape phones 576px and up */
 @media screen and (max-width: 768px) {}
