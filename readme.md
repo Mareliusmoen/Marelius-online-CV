@@ -52,7 +52,7 @@ The page will be quick glimpse in to Marelius Moens work experiences, education 
 <img src="assets/images/mareliusmoen.github.io_Marelius-online-CV_tablet.png" width="300">
 
 ## Laptop
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-CV_mobile.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_Marelius-online-CV_desktop.png" width="300">
 
 ## 4k desktop
 <img src="assets/images/mareliusmoen.github.io_Marelius-online-CV_4K-screen.png" width="300">
