@@ -322,7 +322,17 @@ form label {
     /* Microsoft Edge */
     color: #ffffffe0;
 }
-
+/* Style submit confirmation page */
+#confirm-submit {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    height: 100%;
+    color: white;
+    font-size: 1.7vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 /* Footer styling */
 #footer {
     background-color: black;
