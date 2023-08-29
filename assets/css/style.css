@@ -51,7 +51,7 @@ nav {
     top: 0px;
     overflow: hidden;
     z-index: 1;
-    font-size: 1.7vw;
+    font-size: 2vw;
 }
 
 #menu {
@@ -356,3 +356,14 @@ form label {
     font-size: x-large;
 }
 
+/* Media queries for smaller screen sizes */
+@media (max-width: 767px) {
+.main-content {
+    margin: 0%;
+}
+}
+@media (max-width: 500px) {
+nav {
+    font-size: 3vw;
+}
+}
