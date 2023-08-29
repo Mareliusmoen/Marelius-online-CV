@@ -371,9 +371,15 @@ form label {
 .main-content {
     margin: 0%;
 }
+#myself {
+    width: 50%;
+}
 }
 @media (max-width: 500px) {
 nav {
     font-size: 3vw;
+}
+#myself {
+    width: 50%;
 }
 }
