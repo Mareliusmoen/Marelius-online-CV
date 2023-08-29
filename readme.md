@@ -46,16 +46,16 @@ The page will be quick glimpse in to Marelius Moens work experiences, education 
 # Screenshots of different screensizes
 
 ## Mobile
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-CV_mobile.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_Marelius-online-cv_mobile.png" width="300">
 
 ## Tablet
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-CV_tablet.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_Marelius-online-cv_tablet.png" width="300">
 
 ## Laptop
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-CV_desktop.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_Marelius-online-cv_desktop.png" width="300">
 
 ## 4k desktop
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-CV_4K-screen.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_Marelius-online-cv_4k-screen.png" width="300">
 
 # Features left to implement
 - When uploaded to a server, make the contact-form operational.
