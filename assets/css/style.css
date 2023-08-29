@@ -34,9 +34,13 @@ a:visited {
     text-transform: uppercase;
 }
 
-/* Make nav-bar items hover */
-nav li:hover {
-    transform: scale(1.1);
+/* Make nav-bar items, all links in contact section and footer hover */
+a:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.some-icon:hover {
+    transform: scale(1.2);
     transition: 0.3s;
 }
 
@@ -51,7 +55,7 @@ nav {
     top: 0px;
     overflow: hidden;
     z-index: 1;
-    font-size: 1.7vw;
+    font-size: 1.4vw;
 }
 
 #menu {
