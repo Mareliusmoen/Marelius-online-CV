@@ -99,3 +99,5 @@ Once the master branch has been selected, the page will be automatically refresh
 
 ## Media
 - Picture taken by Anna Marxen at Deilig Media, used on this website with her permission. ( https://www.deiligmedia.se ).
+
+[def]: ssets/images/mareliusmoen.github.io_marelius-online-cv_4k-screen.pn
