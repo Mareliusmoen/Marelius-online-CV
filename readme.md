@@ -78,6 +78,7 @@ The page will be quick glimpse in to Marelius Moens work experiences, education 
 
 # Features left to implement
 - When uploaded to a server, make the contact-form operational.
+- Submit confirmation HTML page needs background responsiveness for mobile screens
 
 # Bugs
 - Struggled with achieving a uniform style and size when I had multiple pages, so I decided that it would be better for the UI to have 5 sections that were responsive to different screen-sizes instead.

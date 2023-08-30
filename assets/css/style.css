@@ -5,6 +5,7 @@
 body {
     background-image: linear-gradient(to bottom right, #82a1d1, black);
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Electrolize';
 }
 
@@ -369,5 +370,11 @@ form label {
     audio {
         position: relative;
         width: 100%;
+    }
+    #about-me {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
