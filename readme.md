@@ -21,6 +21,7 @@ contact section sketch
 <br>
 -----
 # Design changes early in the process
+
 It seemed more intuitive for the user and better from a design POV for achieving a uniform style and size, so I decided that it would be better for the UI to have 5 sections that were responsive to different screen-sizes instead of 5 different pages.
 The colors where also changed to a darker purple combination that gave a more professional feel.
 -----
@@ -51,16 +52,16 @@ The page will be quick glimpse in to Marelius Moens work experiences, education 
 # Screenshots of different screensizes
 
 ## Mobile
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-cv_mobile.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_marelius-online-cv_mobile.png" width="300">
 
 ## Tablet
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-cv_tablet.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_marelius-online-cv_tablet.png" width="300">
 
 ## Laptop
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-cv_desktop.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_marelius-online-cv_desktop.png" width="300">
 
 ## 4k desktop
-<img src="assets/images/mareliusmoen.github.io_Marelius-online-cv_4k-screen.png" width="300">
+<img src="assets/images/mareliusmoen.github.io_marelius-online-cv_4k-screen.png" width="300">
 
 # Features left to implement
 - When uploaded to a server, make the contact-form operational.
